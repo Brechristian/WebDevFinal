@@ -1,0 +1,117 @@
+/* Christian Breshears Last Edited: 4/16/22 */
+/*For the index and About Me page, overwrite a total of at least 4 style attributes (e.g. font-family, color, text-alignment, etc.) 
+using at least 4 custom style definitions (e.g. p, H1, .bold, .italic) 
+with custom styles defined in a custom, separate stylesheet. 
+*/
+
+/*4 Style Attributes used: 
+    1. Font-Size                     found in Styles/mystyles.css --> .aboutme-header
+    2. Text-align                    found in Styles/mystyles.css --> .aboutme-header
+    3. Color                         found in Styles/mystyles.css --> .aboutme-header
+    4. font-family: sans-serif       found in Styles/mystyles.css --> .aboutme-header
+*/
+
+/* 4 custom Style Definitions used:
+    1. bold <b></b>                  found in ../html/about.html --> under the ordered lists headers
+    2. <h3><h/3>                     found in ../html/about.html --> above the respective ordered lists
+    3. underline                     found in Styles/mystyles.css --> .resume
+    4. italics                       found in .../html/about.html --> under the "Education" section           
+*/
+.aboutme-header{
+font-family: sans-serif;
+font-size: 450px;
+text-align: center;
+color: white;
+border-style: double;
+border-width: 15px;
+width: 300px;
+margin-left: 140px;
+}
+
+.aboutme-shortlinks{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(82, 202, 239);
+    width: 450px;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+.rgb-82-202-239{
+    color: rgb(82, 202, 239);
+    
+}
+
+.center{
+    text-align:center;
+    align-content: center;
+}
+
+.resume{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #555555;
+    text-align: center; 
+    text-decoration: underline;
+}
+
+.Personal{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #555555;
+    text-align: center;
+    
+}
+.resume-marg{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.HomeMidLinks{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:rgba(59, 59, 248, 0.664)
+
+}
+
+.bodybg{
+    background-color: rgb(242, 242, 242);
+}
+
+.link{
+    color:rgb(110, 195, 229)
+}
+
+.picures{
+    /*We do 114 px because math. 2 pixels from the top and bottom borders between, then add in the height and top*/
+    top: 114px;
+    left: 10px;
+    bottom: 64px;
+    border-right: solid 1px #555555;
+    align-content: center;
+    
+}
+
+  
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*.box1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+}*/

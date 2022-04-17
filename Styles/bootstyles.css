@@ -1,0 +1,69 @@
+/*!-- Christian Breshears. Last Edited: 4/16/22*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(186, 186, 186);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(186, 186, 186);
+  }
+.background{
+    background-image: url(../images/BG.jpg);
+    background-color: rgb(222, 221, 255);
+}
+
+.link{
+    color:rgb(110, 195, 229)
+}
+
+.centerQs{
+  text-align: center;
+  color:rgb(237, 237, 237)
+}
+
+.centertab{
+  align-content: center;
+  text-align: center;
+}
+
+.desctext{
+ text-align:center;
+ color:rgb(186, 186, 186);
+ align-content: center;
+}
+
+.navbar {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  white-space: nowrap;
+}
+
+.headlink{
+  color: white;
+
+  align-items: right;
+  text-align: right;
+  font-size: 1.25rem;
+}
+
+.footer{
+  text-align: center;
+  color:white;
+}
